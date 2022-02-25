@@ -28,3 +28,13 @@ img {
     font-weight: bold;
     margin: 5px;
 }
+
+.div_deux {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div_trois {
+    display: flex;
+    justify-content: space-evenly;
+}
