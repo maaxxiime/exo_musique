@@ -2,3 +2,29 @@ body {
     margin: auto;
     padding: auto;
 }
+
+img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.div_un {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(192, 192, 192);
+    box-shadow: 0 0 10px gray;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+}
