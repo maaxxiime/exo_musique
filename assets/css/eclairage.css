@@ -1,11 +1,22 @@
 body {
     margin: auto;
     padding: auto;
+    background-color: #FCF6B1;
+}
+
+.global {
+    width: 100%;
+}
+
+.tittle {
+    display: flex;
+    justify-content: center;
+    color: #383838;
 }
 
 img {
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -13,28 +24,62 @@ img {
 .div_un {
     display: flex;
     justify-content: space-evenly;
+    margin: 30px;
 }
 
 .card {
-    border: 2px solid gray;
+    border: 2px solid #F7B32B;
     text-align: center;
     border-radius: 20px;
-    background-color: rgb(192, 192, 192);
-    box-shadow: 0 0 10px gray;
+    background-color: #F7B32B;
+    margin: 20px 0 20px 0;
 }
 
 .card p {
+    opacity: 0.9;
+    color: #2D1E2F;
     font-size: 18px;
     font-weight: bold;
-    margin: 5px;
+    margin: 6px;
+}
+
+.card p:nth-child(3){
+    opacity: 0.7;
+}
+
+.card p:nth-child(4){
+    opacity: 0.5;
 }
 
 .div_deux {
     display: flex;
     justify-content: space-evenly;
+    margin: 30px;
 }
 
 .div_trois {
     display: flex;
     justify-content: space-evenly;
+    margin: 30px;
+}
+
+@media screen and (max-width:1200px) {
+    .div_un {
+        flex-direction: column;
+        margin: 0 20% 0 20%;
+    }
+
+    .div_deux {
+        flex-direction: column;
+        margin: 0 20% 0 20%;
+    }
+
+    .div_trois {
+        flex-direction: column;
+        margin: 0 20% 0 20%;
+    }
+
+    .card {
+        width: 300px;
+    }
 }
