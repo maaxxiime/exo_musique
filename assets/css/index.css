@@ -2,3 +2,8 @@ body {
     margin: auto;
     padding: auto;
 }
+.navbar{
+    background-color: peru;
+    text-align: center;
+    height: 30px;
+}
