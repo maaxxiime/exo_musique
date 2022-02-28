@@ -26,6 +26,22 @@ let price_deux = document.createElement("p");
 let price_trois = document.createElement("p");
 
 
+let img_heart = document.createElement("img");
+img_heart.classList.add("heart")
+img_heart.src = "/assets/img/coeur.png"
+
+
+card_un.appendChild(img_heart);
+card_deux.appendChild(img_heart);
+card_trois.appendChild(img_heart);
+
+// img_heart.onclick = function hearts(){ alert('blah'); };
+
+// function hearts() {
+//     document.querySelector(img_heart).style.backgroundColor = "red";
+//     // img_heart.classList.toggle("up");
+// }
+
 content.appendChild(row_un);
 row_un.appendChild(card_un);
 row_un.appendChild(card_deux);
