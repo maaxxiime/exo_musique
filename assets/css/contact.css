@@ -2,3 +2,18 @@ body {
     margin: auto;
     padding: auto;
 }
+.navbar{
+    background-color:#F7B32B;
+    text-align: center;
+    height: 40px;
+}
+.gf{
+    margin: 10px;
+   
+}
+footer{
+    margin-top: 20%;
+    text-align: center;
+    background-color: #F7B32B;
+    height: 50px;
+}
