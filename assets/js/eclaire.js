@@ -26,14 +26,20 @@ let price_deux = document.createElement("p");
 let price_trois = document.createElement("p");
 
 
-let img_heart = document.createElement("img");
-img_heart.classList.add("heart")
-img_heart.src = "/assets/img/coeur.png"
+let heart_un = document.createElement("img");
+heart_un.classList.add("heart")
+heart_un.src = "/assets/img/coeur.png"
+card_un.appendChild(heart_un);
 
+let heart_deux = document.createElement("img");
+heart_deux.classList.add("heart")
+heart_deux.src = "/assets/img/coeur.png"
+card_deux.appendChild(heart_deux);
 
-card_un.appendChild(img_heart);
-card_deux.appendChild(img_heart);
-card_trois.appendChild(img_heart);
+let heart_trois = document.createElement("img");
+heart_trois.classList.add("heart")
+heart_trois.src = "/assets/img/coeur.png"
+card_trois.appendChild(heart_trois);
 
 // img_heart.onclick = function hearts(){ alert('blah'); };
 
@@ -171,3 +177,24 @@ img_sept.src = eclairage.produits[6].imgurl;
 name_sept.textContent = eclairage.produits[6].nom;
 ref_sept.textContent = eclairage.produits[6].référence;
 price_sept.textContent = eclairage.produits[6].prix;
+
+
+let heart_quatre = document.createElement("img");
+heart_quatre.classList.add("heart")
+heart_quatre.src = "/assets/img/coeur.png"
+card_quatre.appendChild(heart_quatre);
+
+let heart_cinq = document.createElement("img");
+heart_cinq.classList.add("heart")
+heart_cinq.src = "/assets/img/coeur.png"
+card_cinq.appendChild(heart_cinq);
+
+let heart_six = document.createElement("img");
+heart_six.classList.add("heart")
+heart_six.src = "/assets/img/coeur.png"
+card_six.appendChild(heart_six);
+
+let heart_sept = document.createElement("img");
+heart_sept.classList.add("heart")
+heart_sept.src = "/assets/img/coeur.png"
+card_sept.appendChild(heart_sept);

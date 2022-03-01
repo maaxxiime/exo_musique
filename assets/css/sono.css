@@ -8,6 +8,20 @@ body {
     width: 100%;
 }
 
+.heart {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 25px;
+    left: 10px;
+    transition: 1s;
+}
+.heart:active {
+    transition-duration: 1s;
+    transform: translateY(-15px);
+    background-color: red;  
+}
+
 .tittle {
     display: flex;
     color: #383838;
@@ -32,6 +46,7 @@ img {
     border-radius: 20px;
     background-color: #F7B32B;
     margin: 20px 0 20px 0;
+    position: relative;
 }
 
 .card p {

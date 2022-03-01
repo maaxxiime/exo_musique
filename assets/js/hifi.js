@@ -155,3 +155,38 @@ img_sept.src = hifi.produits[6].imgurl;
 name_sept.textContent = hifi.produits[6].nom;
 ref_sept.textContent = hifi.produits[6].référence;
 price_sept.textContent = hifi.produits[6].prix;
+
+let heart_un = document.createElement("img");
+heart_un.classList.add("heart")
+heart_un.src = "/assets/img/coeur.png"
+card_un.appendChild(heart_un);
+
+let heart_deux = document.createElement("img");
+heart_deux.classList.add("heart")
+heart_deux.src = "/assets/img/coeur.png"
+card_deux.appendChild(heart_deux);
+
+let heart_trois = document.createElement("img");
+heart_trois.classList.add("heart")
+heart_trois.src = "/assets/img/coeur.png"
+card_trois.appendChild(heart_trois);
+
+let heart_quatre = document.createElement("img");
+heart_quatre.classList.add("heart")
+heart_quatre.src = "/assets/img/coeur.png"
+card_quatre.appendChild(heart_quatre);
+
+let heart_cinq = document.createElement("img");
+heart_cinq.classList.add("heart")
+heart_cinq.src = "/assets/img/coeur.png"
+card_cinq.appendChild(heart_cinq);
+
+let heart_six = document.createElement("img");
+heart_six.classList.add("heart")
+heart_six.src = "/assets/img/coeur.png"
+card_six.appendChild(heart_six);
+
+let heart_sept = document.createElement("img");
+heart_sept.classList.add("heart")
+heart_sept.src = "/assets/img/coeur.png"
+card_sept.appendChild(heart_sept);
