@@ -48,5 +48,6 @@ footer a{
   text-decoration: none;
   color: crimson;
   font-weight: bold;
-  margin:0 50px; 
+  margin:0 50px;
+  padding: 10px; 
 }
