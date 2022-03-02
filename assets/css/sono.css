@@ -1,6 +1,7 @@
 body {
     margin: auto;
     padding: auto;
+
     background-color: #FCF6B1;
 }
 
@@ -212,4 +213,6 @@ img {
     .tittle {
         font-size: 11px;
     }
+}
+
 }
