@@ -1,7 +1,46 @@
-https://shop8167.sfstatic.io/upload_dir/shop/Tangent_HiFi-II_System_lifestyle-4.jpg
-https://www.cobra.fr/Image/Source/51874.jpg
-https://www.eurotops.fr/out/pictures/generated/product/1/560_560_85/47839_01.jpg
-https://presence-audio.com/wp-content/uploads/2016/02/Auditorium1-1024x680.jpg
-https://www.cdiscount.com/pdt2/4/6/0/1/700x700/lgcm2460/rw/lg-cm2460-micro-chaine-hifi-bluetooth-usb-100w.jpg
-https://www.cdiscount.com/pdt2/1/2/2/1/700x700/ino3760024825122/rw/inovalley-ch17bth-chaine-hifi-avec-lecteur-cd-bl.jpg
-https://www.on-mag.fr/images/stories/2018/07/Conseil_optimisation_hifi_salle_ecoute_titre.jpg
+hifi ={
+    "produits" : [
+        {
+            "nom" : "hifi tangent",
+            "référence" : "ref: 116488",
+            "prix" : "188€ TTC",
+            "imgurl" : "https://shop8167.sfstatic.io/upload_dir/shop/Tangent_HiFi-II_System_lifestyle-4.jpg"
+        },
+        {
+            "nom" : "baffle yamaha",
+            "référence" : "ref: 116489",
+            "prix" : "89€ TTC",
+            "imgurl" : "https://www.cobra.fr/Image/Source/51874.jpg"
+        },
+        {
+            "nom" : "hifi 200w RMS",
+            "référence" : "ref: 126488",
+            "prix" : "75€ TTC",
+            "imgurl" : "https://www.eurotops.fr/out/pictures/generated/product/1/560_560_85/47839_01.jpg"
+        },
+        {
+            "nom" : "hifi 8.1 800w RMS",
+            "référence" : "ref: 216488",
+            "prix" : "789€ TTC",
+            "imgurl" : "https://presence-audio.com/wp-content/uploads/2016/02/Auditorium1-1024x680.jpg"
+        },
+        {
+            "nom" : "hifi lg 2554",
+            "référence" : "ref: 226488",
+            "prix" : "100€ TTC",
+            "imgurl" : "https://www.cdiscount.com/pdt2/4/6/0/1/700x700/lgcm2460/rw/lg-cm2460-micro-chaine-hifi-bluetooth-usb-100w.jpg"
+        },
+        {
+            "nom" : "hifi 3054",
+            "référence" : "ref: 224488",
+            "prix" : "54€ TTC",
+            "imgurl" : "https://www.cdiscount.com/pdt2/1/2/2/1/700x700/ino3760024825122/rw/inovalley-ch17bth-chaine-hifi-avec-lecteur-cd-bl.jpg"
+        },
+        {
+            "nom" : "home cinema boom 54",
+            "référence" : "ref: 117488",
+            "prix" : "154€ TTC",
+            "imgurl" : "https://www.on-mag.fr/images/stories/2018/07/Conseil_optimisation_hifi_salle_ecoute_titre.jpg"
+        }
+    ]
+}
