@@ -20,7 +20,21 @@ body {
 }
 .gf{
     margin: 10px;
-   
+    text-align: center;
+    color: blue;
+    font-size: bold;
+    
+}
+.adresse{
+    text-align: center;
+    color: blue;
+    font-size: bold;
+}   
+
+.global_form{
+    text-align: center;
+    color: blue;
+    font-size: bold;
 }
 footer{
     margin-top: 20%;
