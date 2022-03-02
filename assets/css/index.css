@@ -4,8 +4,19 @@ body {
 }
 .navbar{
     background-color:#F7B32B;
-    text-align: center;
+    text-align:center;
+   font-size: larger;
+   padding: 10px;
+   
     height: 40px;
+    
+}
+.navbar a{
+  color: crimson;
+  font-weight: bold;
+  text-decoration: none;
+  margin:0 60px;
+  padding: 10px; 
 }
  .slide-img {
     max-width: 400px;
@@ -96,4 +107,14 @@ body {
     text-align: center;
     background-color: #F7B32B;
     height: 40px;
+    padding: 10px;
+    
+}
+footer a{
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+  margin:0 50px; 
+  padding: 10px;
+  
 }
