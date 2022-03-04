@@ -31,12 +31,16 @@ function connect(){
   let mdp="ght1velo"
   let userinput = document.getElementById("butt").value;
   let mdpinput = document.getElementById("butt1").value;
-  if ( userinput== user && mdpinput == mdp){
+  if ( userinput == user && mdpinput == mdp){
     window.location.href = "http://127.0.0.1:5500/index.html";
-    prompt("test");
+    alert("Connexion réussie");
   }
+  else if (userinput == "" || mdpinput == ""){
+    alert('Champ vide');
+  }
+
   else{
-    alert('merde')
+    alert('échec');
   }
 
 }
