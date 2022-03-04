@@ -33,7 +33,7 @@ function connect(){
   let mdpinput = document.getElementById("butt1").value;
   if ( userinput== user && mdpinput == mdp){
     window.location.href = "http://127.0.0.1:5500/index.html";
-    alert("oui")
+    prompt("test");
   }
   else{
     alert('merde')
