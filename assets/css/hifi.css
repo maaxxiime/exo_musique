@@ -6,13 +6,13 @@ body {
 }
 
 .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:#F7B32B;
     text-align:center;
-   font-size: larger;
-   padding: 10px;
-
-    height: 40px;
-
+    font-size: larger;
+    height: 60px; 
 }
 .navbar a{
   color: crimson;
