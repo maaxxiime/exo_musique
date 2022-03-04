@@ -1,7 +1,6 @@
 body {
     margin: auto;
     padding: auto;
-
     background-color: #FCF6B1;
 }
 
@@ -14,9 +13,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color:#F7B32B;
-    text-align:center;
-    font-size: larger;
     height: 60px; 
+    width: 100%;
 }
 .navbar a{
   color: crimson;
